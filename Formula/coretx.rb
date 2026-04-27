@@ -3,9 +3,9 @@ class Coretx < Formula
 
   desc "Structured memory for AI that persists, attributes, and connects"
   homepage "https://coretx.ai"
-  license "MIT"
   url "https://files.pythonhosted.org/packages/dd/2d/4304486d1e8adbe491432ce15e81c807cf6a633e1cc8bcb6224aca160927/coretx-0.9.2.tar.gz"
   sha256 "c6ad27fb406cfccbb08a15b36420bd938445a8398749c0466c2323699235d2e7"
+  license "MIT"
 
   depends_on "rust" => :build
   depends_on "python3"
@@ -120,7 +120,7 @@ class Coretx < Formula
     sha256 "af09e9d1d09f4e7fe37145c1f577e1d61ceb9a41924bf0094a36506285d0a84d"
   end
 
-  resource "pydantic_core" do
+  resource "pydantic-core" do
     url "https://files.pythonhosted.org/packages/2a/ef/f7abb56c49382a246fd2ce9c799691e3c3e7175ec74b14d99e798bcddb1a/pydantic_core-2.46.3.tar.gz"
     sha256 "41c178f65b8c29807239d47e6050262eb6bf84eb695e41101e62e38df4a5bc2c"
   end
