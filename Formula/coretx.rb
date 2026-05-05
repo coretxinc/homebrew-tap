@@ -3,8 +3,8 @@ class Coretx < Formula
 
   desc "Structured memory for AI that persists, attributes, and connects"
   homepage "https://coretx.ai"
-  url "https://files.pythonhosted.org/packages/d6/1a/44c469a8db9603b72f96726d0b5649cc00545211a1229a59387328d2c456/coretx-0.9.3.tar.gz"
-  sha256 "c359d5bfdc6ae21f1cad07d5cefce66e745b0c7c1d9cdc8f2fb8f5c7d3b7e979"
+  url "https://files.pythonhosted.org/packages/27/19/7c8008deefc4373b2532ce87ca2193844bb13e9cc4765e31426ff413113b/coretx-0.9.4.tar.gz"
+  sha256 "e72f4b3256a5d277025f5e9cf46692cdd862afaca910922691fe332d043cbab8"
   license "MIT"
 
   depends_on "rust" => :build
